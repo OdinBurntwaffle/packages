@@ -1,0 +1,9 @@
+<package>
+  <name>items_service</name>
+  <version>1.0.1.0</version>
+  <type>service</type>
+  <dependencies>
+    <dependency>resources</dependency>
+    <dependency>packets</dependency>
+  </dependencies>
+</package>

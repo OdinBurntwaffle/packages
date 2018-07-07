@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package>
+    <name>account</name>
+    <version>1.1.1.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>shared</dependency>
+      <dependency>account_service</dependency>
+    </dependencies>
+    <files>
+      <file size="1753">account/account.lua</file>
+      <file size="212">account/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>account_service</name>
+    <version>1.1.1.0</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>shared</dependency>
+      <dependency>packets</dependency>
+      <dependency>memory</dependency>
+      <dependency>resources</dependency>
+    </dependencies>
+    <files>
+      <file size="2709">account_service/account_service.lua</file>
+      <file size="287">account_service/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>config</name>
+    <version>1.0.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>memory</dependency>
+      <dependency>settings</dependency>
+    </dependencies>
+    <files>
+      <file size="3682">config/config.lua</file>
+      <file size="202">config/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>distance</name>
+    <version>1.0.0.1</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>target</dependency>
+    </dependencies>
+    <files>
+      <file size="2205">distance/distance.lua</file>
+      <file size="166">distance/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>enternity</name>
+    <version>1</version>
+    <type>addon</type>
+    <files>
+      <file size="2283">enternity/enternity.lua</file>
+      <file size="90">enternity/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>entities</name>
+    <version>0.1.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>memory</dependency>
+    </dependencies>
+    <files>
+      <file size="1232">entities/entities.lua</file>
+      <file size="166">entities/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>enumerable</name>
+    <version>2.1.1.0</version>
+    <type>library</type>
+    <files>
+      <file size="17279">enumerable/enumerable.lua</file>
+      <file size="99">enumerable/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>equipment</name>
+    <version>0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>enumerable</dependency>
+      <dependency>resources</dependency>
+      <dependency>items_service</dependency>
+    </dependencies>
+    <files>
+      <file size="2371">equipment/equipment.lua</file>
+      <file size="251">equipment/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>files</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <files>
+      <file size="2314">files/files.lua</file>
+      <file size="94">files/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>fps</name>
+    <version>1.0.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>settings</dependency>
+    </dependencies>
+    <files>
+      <file size="2018">fps/fps.lua</file>
+      <file size="163">fps/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>ipc</name>
+    <version>1.0</version>
+    <type>library</type>
+    <files>
+      <file size="6362">ipc/ipc.lua</file>
+      <file size="88">ipc/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>items</name>
+    <version>0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>enumerable</dependency>
+      <dependency>items_service</dependency>
+      <dependency>resources</dependency>
+    </dependencies>
+    <files>
+      <file size="3236">items/items.lua</file>
+      <file size="247">items/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>items_service</name>
+    <version>1.0.1.0</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>resources</dependency>
+      <dependency>packets</dependency>
+    </dependencies>
+    <files>
+      <file size="3738">items_service/items_service.lua</file>
+      <file size="213">items_service/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>linkshell</name>
+    <version>1.0.0.8</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>shared</dependency>
+      <dependency>linkshell_service</dependency>
+    </dependencies>
+    <files>
+      <file size="1599">linkshell/linkshell.lua</file>
+      <file size="216">linkshell/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>linkshell_service</name>
+    <version>1.1.0.0</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>shared</dependency>
+      <dependency>packets</dependency>
+    </dependencies>
+    <files>
+      <file size="2599">linkshell_service/linkshell_service.lua</file>
+      <file size="214">linkshell_service/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>lists</name>
+    <version>1.0.1.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>enumerable</dependency>
+    </dependencies>
+    <files>
+      <file size="4189">lists/lists.lua</file>
+      <file size="169">lists/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>logger</name>
+    <version>1.0.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>files</dependency>
+      <dependency>account</dependency>
+    </dependencies>
+    <files>
+      <file size="2489">logger/logger.lua</file>
+      <file size="200">logger/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>ltn12</name>
+    <version>3.0rc1</version>
+    <type>library</type>
+    <files>
+      <file size="1081">ltn12/LICENSE</file>
+      <file size="8331">ltn12/ltn12.lua</file>
+      <file size="93">ltn12/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>memory</name>
+    <version>1.0.1.4</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>structs</dependency>
+    </dependencies>
+    <files>
+      <file size="167">memory/manifest.xml</file>
+      <file size="5540">memory/memory.lua</file>
+      <file size="14444">memory/types.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>mime</name>
+    <version>3.0rc1</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>ltn12</dependency>
+    </dependencies>
+    <files>
+      <file size="1081">mime/LICENSE</file>
+      <file size="162">mime/manifest.xml</file>
+      <file size="2487">mime/mime.lua</file>
+      <file size="15872">mime/mime/core.dll</file>
+    </files>
+  </package>
+  <package>
+    <name>pack</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <files>
+      <file size="93">pack/manifest.xml</file>
+      <file size="8416">pack/pack.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>packets</name>
+    <version>1.1.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>packet_service</dependency>
+    </dependencies>
+    <files>
+      <file size="175">packets/manifest.xml</file>
+      <file size="4189">packets/packets.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>packet_service</name>
+    <version>1.0.1.6</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>structs</dependency>
+    </dependencies>
+    <files>
+      <file size="175">packet_service/manifest.xml</file>
+      <file size="6534">packet_service/packet_service.lua</file>
+      <file size="127439">packet_service/types.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>party</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>memory</dependency>
+      <dependency>entities</dependency>
+    </dependencies>
+    <files>
+      <file size="203">party/manifest.xml</file>
+      <file size="2346">party/party.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>player</name>
+    <version>1.0.1.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>entities</dependency>
+      <dependency>resources</dependency>
+      <dependency>enumerable</dependency>
+      <dependency>player_service</dependency>
+    </dependencies>
+    <files>
+      <file size="306">player/manifest.xml</file>
+      <file size="4876">player/player.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>player_service</name>
+    <version>1.0.2.1</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>packets</dependency>
+    </dependencies>
+    <files>
+      <file size="173">player_service/manifest.xml</file>
+      <file size="5884">player_service/player_service.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>reflect</name>
+    <version>0.2</version>
+    <type>library</type>
+    <files>
+      <file size="92">reflect/manifest.xml</file>
+      <file size="9910">reflect/reflect.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>resources</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>resources_service</dependency>
+      <dependency>enumerable</dependency>
+    </dependencies>
+    <files>
+      <file size="220">resources/manifest.xml</file>
+      <file size="2897">resources/resources.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>resources_service</name>
+    <version>1.0.0.0</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>resources_data</dependency>
+    </dependencies>
+    <files>
+      <file size="185">resources_service/manifest.xml</file>
+      <file size="2250">resources_service/resources_service.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>send</name>
+    <version>0.1</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>player</dependency>
+      <dependency>ipc</dependency>
+    </dependencies>
+    <files>
+      <file size="191">send/manifest.xml</file>
+      <file size="2122">send/send.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>sets</name>
+    <version>1.0.0.2</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>enumerable</dependency>
+    </dependencies>
+    <files>
+      <file size="168">sets/manifest.xml</file>
+      <file size="4082">sets/sets.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>settings</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>files</dependency>
+      <dependency>account</dependency>
+    </dependencies>
+    <files>
+      <file size="204">settings/manifest.xml</file>
+      <file size="5352">settings/settings.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>shared</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <files>
+      <file size="95">shared/manifest.xml</file>
+      <file size="3019">shared/shared/client.lua</file>
+      <file size="545">shared/shared/server.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>socket</name>
+    <version>3.0rc1</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>ltn12</dependency>
+      <dependency>mime</dependency>
+    </dependencies>
+    <files>
+      <file size="1081">socket/LICENSE</file>
+      <file size="198">socket/manifest.xml</file>
+      <file size="4451">socket/socket.lua</file>
+      <file size="44032">socket/socket/core.dll</file>
+      <file size="9243">socket/socket/ftp.lua</file>
+      <file size="3698">socket/socket/headers.lua</file>
+      <file size="12330">socket/socket/http.lua</file>
+      <file size="8074">socket/socket/smtp.lua</file>
+      <file size="3612">socket/socket/tp.lua</file>
+      <file size="11036">socket/socket/url.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>status_effects</name>
+    <version>0.1.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>resources</dependency>
+      <dependency>enumerable</dependency>
+      <dependency>status_effects_service</dependency>
+    </dependencies>
+    <files>
+      <file size="282">status_effects/manifest.xml</file>
+      <file size="4620">status_effects/status_effects.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>status_effects_service</name>
+    <version>0.1.1.0</version>
+    <type>service</type>
+    <dependencies>
+      <dependency>pack</dependency>
+      <dependency>packets</dependency>
+      <dependency>resources</dependency>
+    </dependencies>
+    <files>
+      <file size="260">status_effects_service/manifest.xml</file>
+      <file size="3077">status_effects_service/status_effects_service.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>structs</name>
+    <version>1.0.3.1</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>pack</dependency>
+    </dependencies>
+    <files>
+      <file size="165">structs/manifest.xml</file>
+      <file size="12873">structs/structs.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>target</name>
+    <version>1.1.0.1</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>memory</dependency>
+      <dependency>party</dependency>
+      <dependency>player</dependency>
+    </dependencies>
+    <files>
+      <file size="237">target/manifest.xml</file>
+      <file size="3820">target/target.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>target_info</name>
+    <version>1.0.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>target</dependency>
+    </dependencies>
+    <files>
+      <file size="169">target_info/manifest.xml</file>
+      <file size="3084">target_info/target_info.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>terminate</name>
+    <version>1</version>
+    <type>addon</type>
+    <files>
+      <file size="90">terminate/manifest.xml</file>
+      <file size="1806">terminate/terminate.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>timestamp</name>
+    <version>1</version>
+    <type>addon</type>
+    <files>
+      <file size="89">timestamp/manifest.xml</file>
+      <file size="1944">timestamp/timestamp.lua</file>
+    </files>
+  </package>
+  <package>
+    <name>window_title</name>
+    <version>1.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>account</dependency>
+    </dependencies>
+    <files>
+      <file size="167">window_title/manifest.xml</file>
+      <file size="2596">window_title/window_title.lua</file>
+    </files>
+  </package>
+</packages>
